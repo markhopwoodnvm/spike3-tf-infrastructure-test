@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source     = "github.com/markhopwoodnvm/spike3-tf-module-vpc?ref=v1.0.0"
+  source     = "github.com/markhopwoodnvm/spike3-tf-module-vpc?ref=v1"
   vpc_name   = "TESTC3"
   cidr_block = "10.6.0.0/16"
 }
