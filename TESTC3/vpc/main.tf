@@ -17,3 +17,5 @@ module "vpc" {
   vpc_name   = "TESTC3"
   cidr_block = "10.6.0.0/16"
 }
+
+
